@@ -88,6 +88,7 @@ streamlit run app.py
 ```
 
 Opens at `http://localhost:8501`
+
 (Navigate to :
 Local URL: http://localhost:8501
   Network URL: http://192.168.98.57:8501 )
