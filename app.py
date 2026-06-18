@@ -121,7 +121,7 @@ with col1:
         label_visibility="collapsed"
     )
 with col2:
-    st.markdown("<br>" * 3)
+    st.markdown("<br><br><br>", unsafe_allow_html=True)
     analyze_btn = st.button("🔍 Analyze", use_container_width=True)
     clear_btn = st.button("🗑️ Clear", use_container_width=True)
 
