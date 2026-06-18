@@ -1,0 +1,33 @@
+
+FAKE NEWS DETECTOR - TEST SET EVALUATION REPORT
+================================================
+Date: 2026-06-17 10:55:00
+
+TEST SET: 4,000 samples
+  - Real News: 2,000
+  - Fake News: 2,000
+
+METRICS:
+  Accuracy:    0.9895 (98.95%)
+  Precision:   0.9925
+  Recall:      0.9865
+  F1-Score:    0.9895
+  ROC AUC:     0.9990
+  Avg Precision: 0.9992
+
+CONFUSION MATRIX:
+  True Negatives (Real→Real):  1,985
+  False Positives (Real→Fake): 15
+  False Negatives (Fake→Real): 27
+  True Positives (Fake→Fake):  1,973
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+   Real News       0.99      0.99      0.99      2000
+   Fake News       0.99      0.99      0.99      2000
+
+    accuracy                           0.99      4000
+   macro avg       0.99      0.99      0.99      4000
+weighted avg       0.99      0.99      0.99      4000
+
